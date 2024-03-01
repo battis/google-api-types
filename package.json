@@ -1,0 +1,21 @@
+{
+  "name": "@battis/google.calendar",
+  "version": "0.1.0",
+  "author": {
+    "name": "Seth Battis",
+    "url": "https://github.com/battis"
+  },
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@battis/eslint-config": "latest",
+    "@battis/prettier-config": "latest"
+  },
+  "prettier": "@battis/prettier-config",
+  "eslintConfig": {
+    "extends": "@battis/eslint-config"
+  },
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.3"
+  }
+}
