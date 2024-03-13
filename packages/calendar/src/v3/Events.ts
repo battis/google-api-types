@@ -1,4 +1,4 @@
-import {Event} from './Event';
+import { Event } from './Event';
 
 /**
  * @see https://developers.google.com/calendar/api/v3/reference/events/list#response
@@ -11,13 +11,11 @@ export type Events = {
   updated: datetime;
   timeZone: string;
   accessRole: string;
-  defaultReminders: [
-    {
-      method: string;
-      minutes: integer;
-    }
-  ];
+  defaultReminders: {
+    method: string;
+    minutes: integer;
+  }[];
   nextPageToken: string;
   nextSyncToken: string;
-  items: [Event];
+  items: Event[];
 };

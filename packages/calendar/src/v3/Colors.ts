@@ -1,3 +1,5 @@
+import '@battis/google.base';
+
 /**
  * @see https://developers.google.com/calendar/api/v3/reference/colors
  */

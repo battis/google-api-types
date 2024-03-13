@@ -1,0 +1,18 @@
+{
+  "name": "@battis/google.calendar",
+  "version": "0.1.0",
+  "description": "Typescript types to describe the responses from the Google Calendar v3 REST API",
+  "author": {
+    "name": "Seth Battis",
+    "url": "https://github.com/battis"
+  },
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "@battis/google.base": "^0.1.0"
+  },
+  "scripts": {
+    "release": "np --yolo -no-release-draft"
+  }
+}

@@ -1,3 +1,5 @@
+import '@battis/google.base';
+
 /**
  * @see https://developers.google.com/calendar/api/v3/reference/calendarList
  */
@@ -16,23 +18,19 @@ export type CalendarListEntry = {
   hidden: boolean;
   selected: boolean;
   accessRole: string;
-  defaultReminders: [
-    {
-      method: string;
-      minutes: integer;
-    }
-  ];
+  defaultReminders: {
+    method: string;
+    minutes: integer;
+  }[];
   notificationSettings: {
-    notifications: [
-      {
-        type: string;
-        method: string;
-      }
-    ];
+    notifications: {
+      type: string;
+      method: string;
+    }[];
   };
   primary: boolean;
   deleted: boolean;
   conferenceProperties: {
-    allowedConferenceSolutionTypes: [string];
+    allowedConferenceSolutionTypes: string[];
   };
 };

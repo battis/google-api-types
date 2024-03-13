@@ -1,3 +1,5 @@
+import '@battis/google.base';
+
 /**
  * @see https://developers.google.com/calendar/api/v3/reference/events
  */
@@ -36,7 +38,7 @@ export type Event = {
     timeZone: string;
   };
   endTimeUnspecified: boolean;
-  recurrence: [string];
+  recurrence: string[];
   recurringEventId: string;
   originalStartTime: {
     date: date;
@@ -47,20 +49,18 @@ export type Event = {
   visibility: string;
   iCalUID: string;
   sequence: integer;
-  attendees: [
-    {
-      id: string;
-      email: string;
-      displayName: string;
-      organizer: boolean;
-      self: boolean;
-      resource: boolean;
-      optional: boolean;
-      responseStatus: string;
-      comment: string;
-      additionalGuests: integer;
-    }
-  ];
+  attendees: {
+    id: string;
+    email: string;
+    displayName: string;
+    organizer: boolean;
+    self: boolean;
+    resource: boolean;
+    optional: boolean;
+    responseStatus: string;
+    comment: string;
+    additionalGuests: integer;
+  }[];
   attendeesOmitted: boolean;
   extendedProperties: {
     private: {
@@ -81,18 +81,16 @@ export type Event = {
         statusCode: string;
       };
     };
-    entryPoints: [
-      {
-        entryPointType: string;
-        uri: string;
-        label: string;
-        pin: string;
-        accessCode: string;
-        meetingCode: string;
-        passcode: string;
-        password: string;
-      }
-    ];
+    entryPoints: {
+      entryPointType: string;
+      uri: string;
+      label: string;
+      pin: string;
+      accessCode: string;
+      meetingCode: string;
+      passcode: string;
+      password: string;
+    }[];
     conferenceSolution: {
       key: {
         type: string;
@@ -124,12 +122,10 @@ export type Event = {
   locked: boolean;
   reminders: {
     useDefault: boolean;
-    overrides: [
-      {
-        method: string;
-        minutes: integer;
-      }
-    ];
+    overrides: {
+      method: string;
+      minutes: integer;
+    }[];
   };
   source: {
     url: string;
@@ -158,14 +154,12 @@ export type Event = {
     declineMessage: string;
     chatStatus: string;
   };
-  attachments: [
-    {
-      fileUrl: string;
-      title: string;
-      mimeType: string;
-      iconLink: string;
-      fileId: string;
-    }
-  ];
+  attachments: {
+    fileUrl: string;
+    title: string;
+    mimeType: string;
+    iconLink: string;
+    fileId: string;
+  }[];
   eventType: string;
 };

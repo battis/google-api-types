@@ -1,3 +1,5 @@
+import '@battis/google.base';
+
 /**
  * @see https://developers.google.com/calendar/api/v3/reference/calendars
  */
@@ -10,6 +12,6 @@ export type Calendar = {
   location: string;
   timeZone: string;
   conferenceProperties: {
-    allowedConferenceSolutionTypes: [string];
+    allowedConferenceSolutionTypes: string[];
   };
 };
