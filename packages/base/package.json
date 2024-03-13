@@ -6,12 +6,9 @@
     "name": "Seth Battis",
     "url": "https://github.com/battis"
   },
-  "types": "index.d.ts",
+  "types": "src/index.d.ts",
   "license": "MIT",
   "dependencies": {
     "@tsconfig/recommended": "^1.0.3"
-  },
-  "scripts": {
-    "release": "np --yolo -no-release-draft"
   }
 }

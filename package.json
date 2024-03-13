@@ -10,8 +10,7 @@
   ],
   "devDependencies": {
     "@battis/eslint-config": "latest",
-    "@battis/prettier-config": "latest",
-    "np": "^10.0.0"
+    "@battis/prettier-config": "latest"
   },
   "prettier": "@battis/prettier-config",
   "eslintConfig": {

@@ -11,8 +11,5 @@
   "dependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@battis/google.base": "^0.1.0"
-  },
-  "scripts": {
-    "release": "np --yolo -no-release-draft"
   }
 }
