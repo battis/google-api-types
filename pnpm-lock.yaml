@@ -30,7 +30,7 @@ importers:
   packages/calendar:
     dependencies:
       '@battis/google.base':
-        specifier: workspace:^0.1.0
+        specifier: workspace:^0.1.1
         version: link:../base
       '@tsconfig/recommended':
         specifier: ^1.0.3
@@ -39,7 +39,7 @@ importers:
   packages/drive:
     dependencies:
       '@battis/google.base':
-        specifier: workspace:^0.1.0
+        specifier: workspace:^0.1.1
         version: link:../base
       '@tsconfig/recommended':
         specifier: ^1.0.3
