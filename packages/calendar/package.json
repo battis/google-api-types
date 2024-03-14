@@ -1,6 +1,6 @@
 {
   "name": "@battis/google.calendar",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Typescript types to describe the responses from the Google Calendar v3 REST API",
   "author": {
     "name": "Seth Battis",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@tsconfig/recommended": "^1.0.3",
-    "@battis/google.base": "workspace:^0.1.0"
+    "@battis/google.base": "workspace:^0.1.1"
   },
   "homepage": "https://github.com/battis/google-api-types/tree/main/packages/calendar#readme"
 }
