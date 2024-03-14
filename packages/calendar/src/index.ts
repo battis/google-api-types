@@ -1,7 +1,7 @@
-import * as v3Module from './v3';
+import * as v3_namespace from './v3';
 
 namespace Calendar {
-  export type v3 = v3Module;
+  export import v3 = v3_namespace;
 }
 
 export default Calendar;
