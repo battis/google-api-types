@@ -1,6 +1,6 @@
 {
   "name": "@battis/google.calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript types to describe the responses from the Google Calendar v3 REST API",
   "author": {
     "name": "Seth Battis",

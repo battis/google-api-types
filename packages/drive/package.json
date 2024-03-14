@@ -1,6 +1,6 @@
 {
   "name": "@battis/google.drive",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Typescript types to describe the responses from the Google Drive v3 REST API",
   "author": {
     "name": "Seth Battis",
