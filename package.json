@@ -17,8 +17,7 @@
     "release": "run-s release:*",
     "release:package-info": "bin/package-info.mjs",
     "release:changeset": "changeset version",
-    "release:rebuild": "install",
-    "release:commit": "git add -A .; git commit -m"
+    "release:publish": "publish -r"
   },
   "devDependencies": {
     "@battis/eslint-config": "latest",
