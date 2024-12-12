@@ -14,7 +14,7 @@
   "types": "src/index.d.ts",
   "license": "MIT",
   "dependencies": {
-    "@tsconfig/recommended": "^1.0.3"
+    "@tsconfig/recommended": "^1.0.8"
   },
   "homepage": "https://github.com/battis/google-api-types/tree/main/packages/base#readme"
 }
