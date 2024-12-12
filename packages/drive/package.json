@@ -14,7 +14,7 @@
   "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
-    "@tsconfig/recommended": "^1.0.3",
+    "@tsconfig/recommended": "^1.0.8",
     "@battis/google.base": "workspace:^0.1.1"
   },
   "homepage": "https://github.com/battis/google-api-types/tree/main/packages/drive#readme"

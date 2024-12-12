@@ -24,8 +24,8 @@ importers:
   packages/base:
     dependencies:
       '@tsconfig/recommended':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.8
+        version: 1.0.8
 
   packages/calendar:
     dependencies:
@@ -33,8 +33,8 @@ importers:
         specifier: workspace:^0.1.1
         version: link:../base
       '@tsconfig/recommended':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.8
+        version: 1.0.8
 
   packages/drive:
     dependencies:
@@ -42,8 +42,8 @@ importers:
         specifier: workspace:^0.1.1
         version: link:../base
       '@tsconfig/recommended':
-        specifier: ^1.0.3
-        version: 1.0.3
+        specifier: ^1.0.8
+        version: 1.0.8
 
 packages:
 
@@ -262,8 +262,8 @@ packages:
       '@vue/compiler-sfc':
         optional: true
 
-  '@tsconfig/recommended@1.0.3':
-    resolution: {integrity: sha512-+jby/Guq9H8O7NWgCv6X8VAiQE8Dr/nccsCtL74xyHKhu2Knu5EAKmOZj3nLCnLm1KooUzKY+5DsnGVqhM8/wQ==}
+  '@tsconfig/recommended@1.0.8':
+    resolution: {integrity: sha512-TotjFaaXveVUdsrXCdalyF6E5RyG6+7hHHQVZonQtdlk1rJZ1myDIvPUUKPhoYv+JAzThb2lQJh9+9ZfF46hsA==}
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
@@ -1962,7 +1962,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tsconfig/recommended@1.0.3': {}
+  '@tsconfig/recommended@1.0.8': {}
 
   '@types/mdast@3.0.15':
     dependencies:
