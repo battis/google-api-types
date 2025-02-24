@@ -1,0 +1,5 @@
+{
+  "path": ".",
+  "tag-prefix": "base/",
+  "releaseCommitMessageFormat": "chore(base): @battis/google.base@{{currentTag}}"
+}

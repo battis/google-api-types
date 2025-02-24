@@ -2,20 +2,22 @@
   "name": "@battis/google.drive",
   "version": "0.1.2",
   "description": "Typescript types to describe the responses from the Google Drive v3 REST API",
-  "author": {
-    "name": "Seth Battis",
-    "url": "https://github.com/battis"
-  },
+  "homepage": "https://github.com/battis/google-api-types/tree/main/packages/drive#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/battis/google-api-types.git",
     "directory": "packages/drive"
   },
-  "main": "src/index.ts",
   "license": "MIT",
-  "dependencies": {
-    "@tsconfig/recommended": "^1.0.8",
-    "@battis/google.base": "workspace:^0.1.1"
+  "author": {
+    "name": "Seth Battis",
+    "url": "https://github.com/battis"
   },
-  "homepage": "https://github.com/battis/google-api-types/tree/main/packages/drive#readme"
+  "main": "src/index.ts",
+  "dependencies": {
+    "@battis/google.base": "workspace:^"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.5.0"
+  }
 }

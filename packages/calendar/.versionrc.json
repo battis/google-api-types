@@ -1,0 +1,5 @@
+{
+  "path": ".",
+  "tag-prefix": "calendar/",
+  "releaseCommitMessageFormat": "chore(base): @battis/google.calendar@{{currentTag}}"
+}

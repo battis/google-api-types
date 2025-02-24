@@ -1,0 +1,5 @@
+{
+  "path": ".",
+  "tag-prefix": "drive/",
+  "releaseCommitMessageFormat": "chore(base): @battis/google.drive@{{currentTag}}"
+}

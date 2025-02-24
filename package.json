@@ -1,30 +1,30 @@
 {
   "name": "@battis/google-api-types",
-  "author": {
-    "name": "Seth Battis",
-    "url": "https://github.com/battis"
-  },
-  "license": "MIT",
+  "homepage": "https://github.com/battis/google-api-types#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/battis/google-api-types.git"
   },
-  "homepage": "https://github.com/battis/google-api-types#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Seth Battis",
+    "url": "https://github.com/battis"
+  },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "release": "run-s release:*",
-    "release:package-info": "bin/package-info.mjs",
-    "release:changeset": "changeset version",
-    "release:publish": "pnpm publish -r --otp $(op item get npm --otp)"
+    "release:paths": "monorepo-package-paths -w --author --homepage --repository",
+    "release:publish": "pnpm publish -r --otp $(op item get npm --otp) --access public"
   },
+  "prettier": "@battis/prettier-config",
   "devDependencies": {
     "@battis/eslint-config": "^2.0.3",
     "@battis/prettier-config": "^1.5.6",
-    "@changesets/cli": "^2.27.12",
+    "@tsconfig/recommended": "^1.0.8",
+    "monorepo-package-paths": "^0.3.8",
     "npm-run-all": "^4.1.5"
   },
-  "prettier": "@battis/prettier-config",
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
